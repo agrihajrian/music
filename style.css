@@ -1,16 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Charmonman:wght@700&display=swap');
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	font-family: 'poppins',sans-serif;
-}
-body{
-	display: grid;
-	place-items: center;
-	min-height: 100vh;
-}
-.main{
+.mainplay{
     position: relative;
     overflow: hidden;
     height: 90vh;
@@ -194,7 +183,7 @@ input[type=range]::-webkit-slider-thumb{
 
 
 /*popup_music_player part*/
-.main .popup_music_player{
+.mainplay .popup_music_player{
   position: absolute;
   bottom: 0;
   left: 0;
