@@ -22,7 +22,7 @@ let tracks = document.querySelector('.tracks');
 //creating a list or generating Html
 for (let i = 0; i < All_song.length; i++) {
 
-  let Html = ` <div class="song">
+  let Html = '<div class="song">
       <div class="img">
       <img src="${All_song[i].img}"/>
       </div>
@@ -34,7 +34,7 @@ for (let i = 0; i < All_song.length; i++) {
       </div>
       <button id="play_btn"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
       </div>
-    </div>`;
+    </div>';
 
   tracks.insertAdjacentHTML("beforeend", Html);
 };
